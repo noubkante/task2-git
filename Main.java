@@ -6,5 +6,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("How many customers? ");
         int n = sc.nextInt();
+
+        if (n <= 0) {
+            System.out.println("Please enter at least one customer.");
+            return;
+        }
     }
 }
