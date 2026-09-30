@@ -20,6 +20,10 @@ public class Main {
                 int deposit = sc.nextInt();
 
                 report.addCustomer(name, deposit);
+                report.printInternalReport();
+                report.printManagementReport();
+
+                report.showConversionDemo();
             }
         }
     }
